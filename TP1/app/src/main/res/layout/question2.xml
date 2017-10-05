@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.darksite.tp1.Question1">
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Pensez-vous faire l’acquisition d’une machinerie agricole prochainement?"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/txtTitreQuestion2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtTitreQuestion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="Question 2"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,UnknownIdInLayout"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupQuestion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/question2"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/radioBtnOuiQuestion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:layout_weight="3.65"
+            android:text="Oui, d’ici la prochaine année"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <RadioButton
+            android:id="@+id/radioBtnOui2Question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:layout_weight="3.65"
+            android:text="Oui, d’ici les cinq prochaines années"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <RadioButton
+            android:id="@+id/radioBtnNonQuestion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:layout_weight="3.65"
+            android:text="Non"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnToQuestion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/question2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="14dp"
+        android:background="@color/colorPrimary"
+        android:text="Prochaine"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>

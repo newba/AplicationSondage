@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TP1</string>
+    <string name="respQ1oui">Oui</string>
+    <string name="respQ1non">Non</string>
+    <string name="respQ2oui1">Oui, d’ici la prochaine année</string>
+    <string name="respQ2oui2">Oui, d’ici les cinq prochaines années</string>
+    <string name="respQ2non">Non</string>
+    <string name="respQ4oui">Oui</string>
+    <string name="respQ4non">Non</string>
+
+</resources>
