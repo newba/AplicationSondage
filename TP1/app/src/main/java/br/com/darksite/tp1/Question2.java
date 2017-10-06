@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
-public class Question2 extends AppCompatActivity {
+public class Question2 extends Base {
 
     //variaveis
     static RadioButton respQ2oui1;

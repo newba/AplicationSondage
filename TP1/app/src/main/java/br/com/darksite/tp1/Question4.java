@@ -9,7 +9,7 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Question4 extends AppCompatActivity {
+public class Question4 extends Base {
 
     //variaveis
     RadioButton respQ4oui, respQ4non;

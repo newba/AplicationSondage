@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-public class Question3 extends AppCompatActivity {
+public class Question3 extends Base {
 
     String responseDeLaQuestion1, responseDeLaQuestion2, responseDeLaQuestion3;
 

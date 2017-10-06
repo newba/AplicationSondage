@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Question5 extends AppCompatActivity {
+public class Question5 extends Base {
 
     String responseDeLaQuestion1, responseDeLaQuestion2, responseDeLaQuestion3, responseDeLaQuestion4, responseDeLaQuestion5;
 

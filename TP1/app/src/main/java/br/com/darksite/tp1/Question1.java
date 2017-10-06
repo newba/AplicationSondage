@@ -11,7 +11,7 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 
-public class Question1 extends AppCompatActivity {
+public class Question1 extends Base {
 
     //variaveis
     RadioButton respQ1oui, respQ1non;
@@ -51,6 +51,7 @@ public class Question1 extends AppCompatActivity {
         });
     }
 
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the main; this adds items to the action bar if it is present.
@@ -82,7 +83,7 @@ public class Question1 extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
 
         }
-    }
+    }*/
 
 }
 

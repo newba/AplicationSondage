@@ -21,7 +21,8 @@
         <activity android:name=".Question4" />
         <activity android:name=".Question5" />
         <activity android:name=".Resume" />
-        <activity android:name=".Question1"></activity>
+        <activity android:name=".Question1" />
+        <activity android:name=".Base"></activity>
     </application>
 
 </manifest>
