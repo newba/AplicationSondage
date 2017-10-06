@@ -3,17 +3,24 @@ package br.com.darksite.tp1;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class Resume extends AppCompatActivity {
 
     String responseDeLaQuestion1, responseDeLaQuestion2, responseDeLaQuestion3, responseDeLaQuestion4, responseDeLaQuestion5;
     TextView respQuestion1, respQuestion2, respQuestion3, respQuestion4, respQuestion5;
+    Button nouveau;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.resume);
+
+        nouveau = (Button)findViewById(R.id.btnNouveau);
+
+
 
         Intent i = getIntent();
         responseDeLaQuestion1 = i.getStringExtra("q1").toString();
@@ -36,6 +43,14 @@ public class Resume extends AppCompatActivity {
 
         respQuestion5 = (TextView)findViewById(R.id.respQuestion5);
         respQuestion5.setText(responseDeLaQuestion5);
+
+        nouveau.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)  {
+                Intent intent = new Intent(Resume.this, Main.class);
+                startActivity(intent);
+            }
+        });
 
 
 
