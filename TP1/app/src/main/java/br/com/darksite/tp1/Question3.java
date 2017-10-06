@@ -65,13 +65,14 @@ public class Question3 extends AppCompatActivity {
 
                 }
                 else {
-                    Intent i3 = new Intent(Question3.this, Question5.class);
+                    Intent i3 = new Intent(Question3.this, Resume.class);
 
                     //Bundle b2 = new Bundle();
                     i3.putExtra("q1", responseDeLaQuestion1);
                     i3.putExtra("q2", responseDeLaQuestion2);
                     i3.putExtra("q3", responseDeLaQuestion3);
                     i3.putExtra("q4", "Non");
+                    i3.putExtra("q5", "I do not want to be contacted");
 
                     startActivity(i3);
 
