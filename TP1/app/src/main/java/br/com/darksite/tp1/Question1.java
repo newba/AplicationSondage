@@ -40,7 +40,7 @@ public class Question1 extends Base {
 
                 Intent i = new Intent(Question1.this, Question2.class);
 
-                Toast.makeText(getApplicationContext(), selectedReponse, Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), selectedReponse, Toast.LENGTH_LONG).show();
 
 
                 //Bundle b = new Bundle();
